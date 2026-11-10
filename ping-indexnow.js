@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'refactor-room.pages.dev';
+const HOST = 'refactor-room.pageaura.xyz';
 const KEY = '142c604b064d4ad3ba0d08e830c36ef3'; // Replace with your IndexNow key string
-const KEY_LOCATION = `https://refactor-room.pages.dev/142c604b064d4ad3ba0d08e830c36ef3.txt`;
+const KEY_LOCATION = `https://refactor-room.pageaura.xyz/142c604b064d4ad3ba0d08e830c36ef3.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
