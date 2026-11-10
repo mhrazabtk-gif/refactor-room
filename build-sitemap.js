@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://refactor-room.pages.dev';
+const DOMAIN = 'https://refactor-room.pageaura.xyz';
 const KEY = '142c604b064d4ad3ba0d08e830c36ef3';
 
 const ROOT = __dirname;
@@ -56,7 +56,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'refactor-room.pages.dev' ||
+    url.hostname.toLowerCase() !== 'refactor-room.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
